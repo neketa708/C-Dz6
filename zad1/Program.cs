@@ -26,7 +26,7 @@ void TriCheck(int[] arr, out int znach)
 int[] ImputArray(string text)
 {
     System.Console.WriteLine(text);
-    return  Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+    return  Array.ConvertAll(Console.ReadLine()!.Split(), int.Parse);
 }
 
 
